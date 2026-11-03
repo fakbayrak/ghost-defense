@@ -60,6 +60,8 @@ Veriyi yeniden dağıtma, ham verileri git'e ekleme.
   (torch 2.11+cu128, kloppy 3.19, mplsoccer); paket `pip install -e .` (src/ghostdef). floodlight kurulu
   değil (pandas<3 ister). Testler: `.venv/Scripts/python -m pytest -q`. Büyük JSON'ları toplu yükleme;
   maç başına NumPy/Parquet'e işle.
+- Git: gizli repo github.com/fakbayrak/ghost-defense (main). `data/` ve `outputs/` (yalnız `sonuclar/`, `sablon/`
+  hariç) izlenmez; ham veri, model ağırlıkları ve loglar asla commit'lenmez.
 - Yığın: Python, PyTorch, kloppy, floodlight, statsbombpy, mplsoccer, Three.js.
 - Ürettiğin tüm belgelerde Türkçe karakterler (ö, ü, ş, ç, ğ, ı, İ) doğru görünmeli.
 
